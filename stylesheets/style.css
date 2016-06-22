@@ -1,5 +1,18 @@
+html {
+	background-color: #c3d0d5;
+}
+
 header {
 	text-align: center;
+	color: #1f3e2f;
+	background-color: #739f89;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 6px 6px 8px #aaa;
+	padding: 2px 5px 2px 5px;
+	margin-bottom: 5px;
 }
 
 ul li {
@@ -9,10 +22,21 @@ ul li {
 dl {
 	max-width: 18.750em; 
 	margin: auto;
+	background-color: #a4ab7c;
+	border-radius: 4px;
+	padding: 2% 5% 2% 5%;
+	box-shadow: 3px 3px 5px #aaa;
 }
 
-dl dt {
+dt {
 	text-align: left;
+	border-top-style: inset;
+	border-top-width: 1px;
+	border-top-color: #aaa;
+}
+
+dt:first-child{
+	border: none;
 }
 
 dd {
