@@ -44,14 +44,29 @@ dd {
 }
 
 .tip {
-	max-width: 40em;
+	max-width: 576px;
+	margin: auto;
+}
+
+.tip p {
+	background-color: #bca383;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px #aaa;
 }
 
 .tip img {
 	width: 90%;
 	height: auto;
+	margin: auto;
 }
 
 footer {
 	text-align: center;
+	background-color: #739f89;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	box-shadow: -6px -6px 8px #aaa;
+	padding: 2px 5px 2px 5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
 } 
