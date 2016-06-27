@@ -1,7 +1,11 @@
-html {
+/* All Elements */
+/*========================*/
+* {
 	background-color: #c3d0d5;
 }
 
+/* Header */
+/*========================*/
 header {
 	text-align: center;
 	color: #1f3e2f;
@@ -24,7 +28,10 @@ nav {
 	margin-bottom: 10px;
 }
 
+/* List of shortcuts */
+/*========================*/
 dl {
+	clear: both;
 	max-width: 18.750em; 
 	margin: auto;
 	background-color: #a4ab7c;
@@ -48,6 +55,8 @@ dd {
 	text-align: right;
 }
 
+/* Custom shortcuts tip */
+/*========================*/
 .tip {
 	max-width: 576px;
 	margin: auto;
@@ -68,6 +77,8 @@ dd {
 	display: block;
 }
 
+/* Footer */
+/*========================*/
 footer {
 	text-align: center;
 	background-color: #739f89;
